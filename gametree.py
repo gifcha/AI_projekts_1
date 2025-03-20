@@ -18,7 +18,7 @@ class node:
 
 # not finished 
 def createGameTree(value: list[int]):
-    root = node(value)
+    root = node(value, 0, 0)
     currentNode = root
     isPlayerMove: bool = playerFirstMove
 
