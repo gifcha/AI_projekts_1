@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.constants import *
 
-def main():
+class GUI:
     def start_game():
         print("First Move:", player_var.get(), "\nAlgorithm:", algorithm_var.get())
 
@@ -15,7 +15,6 @@ def main():
     label_title = tk.Label(root, text="Uzsāk spēli", font=("Arial", 14))
     label_title.pack(ipady=20)
     
-
     # Player selection
     frame_player = tk.Frame(root)
     frame_player.pack()
@@ -23,7 +22,6 @@ def main():
     player_var = tk.StringVar(value="computer")
     ttk.Radiobutton(frame_player, text="Dators", variable=player_var, value="computer").grid(row=0, column=1)
     ttk.Radiobutton(frame_player, text="Cilvēks", variable=player_var, value="human").grid(row=0, column=2)
-
 
     # Algorithm selection
     label_algorithm = tk.Label(root, text="Algoritms", font=("Arial", 14))
@@ -36,14 +34,9 @@ def main():
     ttk.Radiobutton(frame_algorithm, text="Alfa-beta", variable=algorithm_var, value="alpha-beta").grid(row=0, column=1)
     ttk.Radiobutton(frame_algorithm, text="Minimaksa", variable=algorithm_var, value="minimax").grid(row=0, column=2)
 
-
     # Start button
     button_start = tk.Button(root, text="Sākt spēli", font=("Arial", 14), command=start_game)
     button_start.pack(pady=15, side=BOTTOM)
 
-
     # Run the Tkinter event loop
     root.mainloop()
-
-main()
-
