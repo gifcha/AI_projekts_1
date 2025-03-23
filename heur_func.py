@@ -1,9 +1,9 @@
 """
     1. Novērtē pašreizējā spēles stāvokļa heiristisko vērtību.
-    2. Mainīgais sequence: List of integers representing the current number sequence.
-    3. Mainīgais ai_score: Integer representing AI's current score.
-    4. Mainīgais opponent_score: Integer representing the opponent's current score.
-    5. return: Heuristic value of the state.
+    2. Mainīgais sequence: Veselu skaitļu saraksts, kas attēlo pašreizējo skaitļu secību.
+    3. Mainīgais ai_score: Vesels skaitlis, kas attēlo AI pašreizējo rezultātu.
+    4. Mainīgais opponent_score: Vesels skaitlis, kas apzīmē pretinieka pašreizējo rezultātu.
+    5. return: Atgriež heiristisko vērtību.
 """
 
 def heuristic_function(sequence, ai_score, opponent_score):
