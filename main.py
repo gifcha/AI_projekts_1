@@ -17,4 +17,4 @@ print(defaultLine)
 
 # Šeit vajag funkciju kura ģenerēs koku
 
-# Šeit vajag ciklu kurš katru virsotni ar iesūtīs funkcijā "heuristic_function()" un tā piešķirs virsotnei svaru
+# Šeit vajag ciklu kurš katru virsotni iesūtīs funkcijā "heuristic_function()" un tā piešķirs virsotnei svaru
