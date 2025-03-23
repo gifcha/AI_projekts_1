@@ -29,8 +29,8 @@ def heuristic_function(sequence, ai_score, opponent_score):
     
     return H
 
-# Example usage:
-sequence = [3, 5, 2, 6, 4, 1, 9]  # Example game state
+# Piemērs :
+sequence = [3, 5, 2, 6, 4, 1, 9]  # Skaitļu virkne
 ai_score = 4
 opponent_score = 3
 
