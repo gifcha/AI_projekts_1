@@ -30,7 +30,7 @@ def heuristic_function(sequence, ai_score, opponent_score):
     return H
 
 # Piemērs :
-sequence = [3, 5, 2, 6, 4, 1, 9]  # Skaitļu virkne
+sequence = [3, 5, 2, 6, 4, 1, 9]
 ai_score = 4
 opponent_score = 3
 
