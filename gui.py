@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.constants import *
 
+
 class GUI:
     def start_game():
         print("First Move:", player_var.get(), "\nAlgorithm:", algorithm_var.get())

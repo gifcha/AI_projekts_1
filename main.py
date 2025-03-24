@@ -6,7 +6,7 @@ from gametree import createGameTree
 # GUI funkcija
 # start_game()
 
-# Skaitļu virkne
+# Skaitļu virknes ģenerēšana
 startString = ""
 lineLength = int(input("Choos a number between form 15 till 25 : "))
 for x in range(0,lineLength):
