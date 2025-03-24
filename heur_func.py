@@ -28,11 +28,3 @@ def heuristic_function(sequence, ai_score, opponent_score):
     H = (ai_score - opponent_score) + (w1 * N1) - (w2 * N2) + (w3 * N3)
     
     return H
-
-# Piemērs :
-sequence = [3, 5, 2, 6, 4, 1, 9]
-ai_score = 4
-opponent_score = 3
-
-heuristic_value = heuristic_function(sequence, ai_score, opponent_score)
-print("Heuristic Value:", heuristic_value)
