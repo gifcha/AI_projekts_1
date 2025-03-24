@@ -18,5 +18,5 @@ playerScore = 0
 aiScore = 0
 
 # heuristic_function() izmantošana : 
-stateValue = heuristic_function(startString, playerScore, aiScore)
+stateValue = heuristic_function(startString, aiScore, playerScore)
 print(stateValue)
