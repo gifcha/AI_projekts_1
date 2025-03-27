@@ -182,7 +182,6 @@ def minimax(node, depth, isMaximizingPlayer, alpha=None, beta=None):
                 minEval = min(minEval, eval)
             return minEval
     else:
-        # Alpha-Beta Pruning logic
         if isMaximizingPlayer:
             maxEval = -math.inf
             for child in node.children:
@@ -190,7 +189,7 @@ def minimax(node, depth, isMaximizingPlayer, alpha=None, beta=None):
                 maxEval = max(maxEval, eval)
                 alpha = max(alpha, eval)
                 if beta <= alpha:
-                    break  # Prune
+                    break 
             return maxEval
         else:
             minEval = math.inf
@@ -199,7 +198,7 @@ def minimax(node, depth, isMaximizingPlayer, alpha=None, beta=None):
                 minEval = min(minEval, eval)
                 beta = min(beta, eval)
                 if beta <= alpha:
-                    break  # Prune
+                    break  
             return minEval
 
 # Algoritms labāka AI novietojuma izvēlei
