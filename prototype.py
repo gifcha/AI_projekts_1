@@ -41,10 +41,6 @@ class rindA:
         self.size -= 1 # samazināt mezglu skaitītāju par 1
         return value
 
-    def extend(self, values): # Pievienojiet katru vērtību rindai aizmugurē
-        for value in values:
-            self.append(value)
-
     def __len__(self): # Atgriezt pašreizējo rindu lielumu
         return self.size
 
